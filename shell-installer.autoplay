@@ -174,16 +174,14 @@ end</Script>
 <Event>
 <Name>On Startup</Name>
 <Args/>
-<Script>
-
-</Script>
+<Script>result = Shell.Execute("vcredist_x86.exe", "open", "", "", SW_SHOWNORMAL, true);</Script>
 <TreeStates>
-<TreeState>0</TreeState>
+<TreeState>2</TreeState>
 <TreeState>0</TreeState>
 <TreeState>0</TreeState>
 </TreeStates>
 <DesignCodeLine>0</DesignCodeLine>
-<DesignCodeCol>0</DesignCodeCol>
+<DesignCodeCol>80</DesignCodeCol>
 <BookMarks count="0">
 </BookMarks>
 </Event>
@@ -584,7 +582,7 @@ Input.SetSelection('path_inp', # app.install_path +1, # app.install_path +1);</S
 <DisabledColor>12632256</DisabledColor>
 <FontData>
 <FontName>Courier New</FontName>
-<CharacterSet>-1539891508</CharacterSet>
+<CharacterSet>-1539897908</CharacterSet>
 <Height>-14</Height>
 <Weight>700</Weight>
 <Italic>0</Italic>
@@ -707,7 +705,7 @@ Input.SetSelection('path_inp', # app.install_path +1, # app.install_path +1);</S
 <BackgroundColor>16777215</BackgroundColor>
 <FontData>
 <FontName>Courier New</FontName>
-<CharacterSet>-1539891508</CharacterSet>
+<CharacterSet>-1539897908</CharacterSet>
 <Height>-12</Height>
 <Weight>400</Weight>
 <Italic>0</Italic>
@@ -905,7 +903,7 @@ Page.Jump("installing");</Script>
 </Options>
 <FontData>
 <FontName>Courier New</FontName>
-<CharacterSet>-1539891508</CharacterSet>
+<CharacterSet>-1539897908</CharacterSet>
 <Height>-12</Height>
 <Weight>400</Weight>
 <Italic>0</Italic>
@@ -1038,7 +1036,7 @@ Page.Jump("installing");</Script>
 </Options>
 <FontData>
 <FontName>Courier New</FontName>
-<CharacterSet>-1539891508</CharacterSet>
+<CharacterSet>-1539897908</CharacterSet>
 <Height>-12</Height>
 <Weight>400</Weight>
 <Italic>0</Italic>
@@ -1147,7 +1145,7 @@ Page.Jump("installing");</Script>
 <DisabledColor>12632256</DisabledColor>
 <FontData>
 <FontName>Courier New</FontName>
-<CharacterSet>-1539891508</CharacterSet>
+<CharacterSet>-1539897908</CharacterSet>
 <Height>-12</Height>
 <Weight>400</Weight>
 <Italic>0</Italic>
@@ -1280,7 +1278,7 @@ Page.Jump("installing");</Script>
 <Font>
 <FontData>
 <FontName>Courier New</FontName>
-<CharacterSet>-1539891508</CharacterSet>
+<CharacterSet>-1539897908</CharacterSet>
 <Height>-12</Height>
 <Weight>400</Weight>
 <Italic>0</Italic>
@@ -1363,7 +1361,7 @@ Page.Jump("installing");</Script>
 <BackgroundColor>16777215</BackgroundColor>
 <FontData>
 <FontName>Courier New</FontName>
-<CharacterSet>-1539891508</CharacterSet>
+<CharacterSet>-1539897908</CharacterSet>
 <Height>-12</Height>
 <Weight>400</Weight>
 <Italic>0</Italic>
@@ -1694,7 +1692,7 @@ addItem '- Finished'</Script>
 <BackgroundColor>16777215</BackgroundColor>
 <FontData>
 <FontName>Courier New</FontName>
-<CharacterSet>-1539891508</CharacterSet>
+<CharacterSet>-1539897908</CharacterSet>
 <Height>-12</Height>
 <Weight>400</Weight>
 <Italic>0</Italic>
@@ -1817,7 +1815,7 @@ addItem '- Finished'</Script>
 <DisabledColor>12632256</DisabledColor>
 <FontData>
 <FontName>Courier New</FontName>
-<CharacterSet>-1539891508</CharacterSet>
+<CharacterSet>-1539897908</CharacterSet>
 <Height>-13</Height>
 <Weight>700</Weight>
 <Italic>0</Italic>
@@ -1967,7 +1965,7 @@ addItem '- Finished'</Script>
 </Options>
 <FontData>
 <FontName>Courier New</FontName>
-<CharacterSet>-1539891508</CharacterSet>
+<CharacterSet>-1539897908</CharacterSet>
 <Height>-12</Height>
 <Weight>400</Weight>
 <Italic>0</Italic>
@@ -2100,7 +2098,7 @@ addItem '- Finished'</Script>
 </Options>
 <FontData>
 <FontName>Courier New</FontName>
-<CharacterSet>-1539891508</CharacterSet>
+<CharacterSet>-1539897908</CharacterSet>
 <Height>-12</Height>
 <Weight>400</Weight>
 <Italic>0</Italic>
@@ -2219,7 +2217,7 @@ addItem '- Finished'</Script>
 <Font>
 <FontData>
 <FontName>Courier New</FontName>
-<CharacterSet>-1539891508</CharacterSet>
+<CharacterSet>-1539897908</CharacterSet>
 <Height>-12</Height>
 <Weight>400</Weight>
 <Italic>0</Italic>
@@ -2329,7 +2327,7 @@ addItem '- Finished'</Script>
 <BackgroundColor>16777215</BackgroundColor>
 <FontData>
 <FontName>Courier New</FontName>
-<CharacterSet>-1539891508</CharacterSet>
+<CharacterSet>-1539897908</CharacterSet>
 <Height>-12</Height>
 <Weight>400</Weight>
 <Italic>0</Italic>
